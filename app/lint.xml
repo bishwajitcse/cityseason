@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/fragment_roomsuites.xml" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res/layout/fragment_roomsuites.xml" />
+    </issue>
+    <issue id="ObsoleteLayoutParam">
+        <ignore path="res/layout/fragment_roomsuites.xml" />
+    </issue>
+</lint>

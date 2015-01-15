@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CitySeason</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="register"><u>Register Now</u></string>
+    <string name="forgetpass"><u>Forget Password?</u></string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="term"><u>Term &amp; Conditions</u></string>
+
+    <!-- Navigation -->
+    <string name="header">User</string>
+    <string name="tab_one">Breakfast</string>
+    <string name="tab_two">Lunch</string>
+    <string name="tab_three">Hi-Tea</string>
+    <string name="tab_four">Dinner</string>
+    <string name="clear"></string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="done">Done</string>
+    <string name="discard">Discard</string>
+    <string name="search">Search</string>
+    <string name="update">Update</string>
+    <string name="drawer_open">Open drawer navigation</string>
+    <string name="drawer_close">Navigation drawer Close</string>
+    <string name="reserv">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</string>
+    <!-- bottom tab menu -->
+    <string name="main_news">OFFER</string>
+    <string name="main_home">USER</string>
+    <string name="more">BOOK</string>
+    <string name="main_manage_date">MENU</string>
+    <string name="main_friends">SHARE</string>
+    <string name="expertise">Education Levle</string>
+
+    <string-array name="expertiseItem">
+        <item>People</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    
+    <string name="hotel">HOTEL</string>
+    <string name="about">ABOUT</string>
+    <string name="booknowtitle">BOOK NOW</string>
+    <string name="contact">CONTACT</string>
+    <string name="cityplus">CITY PLUS</string>
+
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="specialoffer">SPECIAL<b> OFFER</b></string>
+    <string name="hotelinfo"><b>HOTEL</b> INFO</string>
+    <string name="eventinfo"><b>EVENTS</b> INFO</string>
+    <string name="corporate"><b>SHARE</b></string>
+    <string name="book"><b>BOOK</b></string>
+    <string name="booknow"><b>BOOK</b> NOW</string>
+    <string name="now">NOW</string>
+    <string name="btnoffer">GET THIS <b>OFFER NOW</b></string>
+    <string name="reedemcode"><b>Your Reedem Code is</b></string>
+    <string name="offergettext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel.</string>
+    <string name="offergettext2">Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. </string>
+    <string name="reservationstring">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</string>
+    <string name="title_activity_root">RootActivity</string>
+    
+    <string name="sample">
+        
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+   
+    </string>
+     <string name="sample1">
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. 
+    </string>
+    
+    
+
+</resources>

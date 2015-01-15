@@ -1,0 +1,2 @@
+/Users/bishwajit/Documents/Android/cityseason/app/build/intermediates/classes/debug
+/Users/bishwajit/Documents/Android/cityseason/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-2182c5096b1c2e13d2c5a4ff24e728bf5615b721.jar

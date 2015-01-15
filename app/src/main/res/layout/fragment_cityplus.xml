@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/txtparent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/sticky"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/top_hotelbg" >
+
+        <ImageView
+            android:id="@+id/img_hotel_logo"
+            android:layout_width="60dp"
+            android:layout_height="55dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_moscat" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="11dp"
+            android:layout_toRightOf="@+id/img_hotel_logo"
+            android:text="CITY PLUS"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/itemTop"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#cccccc" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="350dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ir.noghteh.JustifiedTextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="500dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Button
+                android:id="@+id/getcityplus"
+                android:layout_width="363dp"
+                android:layout_height="35dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#490109"
+                android:text="Get City Plus Now"
+                android:textColor="@color/white" />
+
+            <ir.noghteh.JustifiedTextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="379dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="100dp" >
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="127dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#b9b9b9"
+            android:text="LOGIN" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="129dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="10dp"
+            android:background="#b9b9b9"
+            android:text="REGISTER" />
+    </LinearLayout>
+
+</LinearLayout>

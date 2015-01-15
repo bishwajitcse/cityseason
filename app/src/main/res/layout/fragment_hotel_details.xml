@@ -1,0 +1,70 @@
+<!--
+  Copyright 2013 Javier Tarazaga 
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+  
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <View
+        android:id="@+id/itemTop"
+        android:background="@drawable/ic_hoteldetails"
+        style="@style/Item.Top" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:scrollbars="@null"
+        android:divider="@null"
+        android:layout_marginBottom="52dp"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+  
+
+    <RelativeLayout
+         android:id="@+id/sticky"
+         android:background="@drawable/ic_hotel_logobar"
+           style="@style/Item.Sticky"
+          >
+
+        <ImageView
+            android:id="@+id/img_hotel_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_moscat" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/img_hotel_logo"
+            android:text="HOTEL NAME" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView2"
+            android:layout_toRightOf="@+id/img_hotel_logo"
+            android:text="CITY SEASONS"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+
+</FrameLayout>
